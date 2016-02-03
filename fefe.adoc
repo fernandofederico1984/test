@@ -1,0 +1,63 @@
+CAP Theorem
+===========
+
+
+
+=== History
+
+CAP means Consistency, Availability and Partition tolerance.
+
+Brewer formulated in July 2000, the CAP theorem in a keynote on a ICM Symposium 'Principles of Computer programming'.
+This was just a an 'informal statement'. It was a conjeture
+
+.CAP Theorem
+-----
+You can have at most two of these properties for any shared-data system: Consistency, Availability and Partition Tolerance.
+-----
+
+[latexmath]
+++++++++++++++++++++++++++++++++++++++++++++
+\[C = \alpha + \beta Y^{\gamma} + \epsilon\]
+++++++++++++++++++++++++++++++++++++++++++++
+
+http://robertgreiner.com/2014/08/cap-theorem-revisited/
+
+In 2002, Nancy Lynch and Seth Gilbert published a precise formulation
+and gave a proof. It is interesting to note that the proof itself is not difficult. The hard
+part consists in developing a framework for a useful formulation.
+
+// Describe formulation
+
+In [GL02], the CAP-theorem is formulated as follows:
+It is impossible in the asynchronous network model to implement a
+read/write data object that guarantees the following properties: availability
+and atomic consistency
+
+
+https://www.comp.nus.edu.sg/~gilbert/pubs/BrewersConjecture-SigAct.pdf
+
+=== CAP meaning
+
+==== Availability
+
+The requirement of availability is that a web service should work fully or not at all.
+
+What's it?, How is tested?,  How is it measure? ->
+http://www.barringer1.com/mil_files/DOD3235.1-H.pdf
+http://www.weibull.com/hotwire/issue79/relbasics79.htm
+http://www.uploads.pnsqc.org/2013/slides/t-017_Samprathi_slides.pdf
+
+What's the difference with reliability?
+Performance, scalability and Avalability? how one affects the other
+
+
+
+
+
+
+
+
+http://www.math.hu-berlin.de/~muellste/CAP-PNUTS-Text.pdf
+
+http://www.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf
+
